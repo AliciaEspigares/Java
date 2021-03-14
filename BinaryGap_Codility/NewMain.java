@@ -1,11 +1,10 @@
-
 import java.util.*;
        
 public class NewMain {
 
     public static void main(String[] args) {
         
-        int N=2147483646; //Numero en Decimal
+        int N=1376796946; //Numero en Decimal
         int fin=0;
         int count=0;
 
@@ -24,9 +23,9 @@ public class NewMain {
                     if(Bina[i]=='1'){ //cuando al final hay un uno
                         if (fin<count){
                             fin=count; //si el conteo de numeros anteriores es inferior, establece como número final el conteo actual
-                            count=0;
                         }
-                    }else count=1;
+                        count=0;
+                    }else count=0;
                 }
                 
             }
